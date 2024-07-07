@@ -105,6 +105,10 @@ const Home = () => {
           Refferal coins:
           {profile && profile.refferalCoin}
         </strong>
+        <strong>
+          Refferal Token:
+          {profile && profile.refferalToken}
+        </strong>
         <div style={containerStyles}>
           {treeData && (
             <Tree
